@@ -9,8 +9,8 @@ setup(
     description='BNNs for pytorch using pyro.',
     packages=find_packages(),
     install_requires=[
-        'torch == 1.12.0',
-        'torchvision == 0.13.0',
-        'pyro-ppl == 1.8.1'
+        'torch >= 1.12.0',
+        'torchvision >= 0.13.0',
+        'pyro-ppl >= 1.8.1'
     ],
 )
